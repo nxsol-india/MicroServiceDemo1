@@ -23,5 +23,4 @@ public class Controller {
 		return remoteRepository.getCourse(courseId,userInfoId);
 	}
 	
-	
 }
