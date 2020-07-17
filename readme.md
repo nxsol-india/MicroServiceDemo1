@@ -35,11 +35,11 @@ API Details:
 
 A)course by courseid and userid : curl --location --request GET 'http://localhost:8080/course/3/3'
 
-B)user by id: curl --location --request GET 'http://localhost:2222/user/1'
+B)user by id: curl --location --request GET 'http://localhost:8080/user/user/1'
 
-c)country data: curl --location --request GET 'http://localhost:2222/country/'
+c)country data: curl --location --request GET 'http://localhost:8080/user/country/'
 
-D)save course: curl --location --request POST 'http://localhost:3333/course/'
+D)save course: curl --location --request POST 'http://localhost:8080/course/course/'
 --header 'Content-Type: application/json'
 --data-raw 
 '{ "name": "Spring Jpa", "priceDomestic": "150", "priceInternational":"200", "instituteName":"alberta", "courseCountryId":"1" }'
