@@ -28,7 +28,6 @@ D] Please use service discovery for interservice communication
 E] No need for any Oauth implementation assume all APIs are open 
 
 API Details: 
-[Microservice1.postman_collection.json for post man]
 ------------
 
 
