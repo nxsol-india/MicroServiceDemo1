@@ -15,6 +15,7 @@ CREATE TABLE `userinfo` (
 
 
 
+
 INSERT INTO `countryinfo` (`id`, `name`) VALUES ('1', 'India');
 INSERT INTO `countryinfo` (`id`, `name`) VALUES ('2', 'US');
 INSERT INTO `countryinfo` (`id`, `name`) VALUES ('3', 'UK');
