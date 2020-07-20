@@ -20,6 +20,7 @@ public class ClientMicroserviceServerApplication {
 	public static final String USER_SERVICE_URL = "http://USER-MICROSERVICE";
 	public static final String COURSE_SERVICE_URL = "http://COURSE-MICROSERVICE";
 	
+	
 	public static void main(String[] args) {
 		SpringApplication.run(ClientMicroserviceServerApplication.class, args);
 	}
